@@ -23,7 +23,14 @@
 
 
 #search-field {
-    width: 98%;
+    width: 60%;
+    height: 46px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 24px;
+    font-family: 'Material Icons';
+    font-size: 20px;
+    margin-bottom: 15px;
 }
 
 #header {
@@ -33,10 +40,12 @@
     margin-right: 25%;
     margin-top: 250px;
 }
+
 #search-icon {
-    float:left;
+    float: left;
     width: 2%;
 }
+
 #search-form {
     text-align: center;
     width: 50%;
