@@ -1,3 +1,32 @@
-body {
+#top-navbar {
+    overflow: hidden;
+}
+
+#top-navbar a {
+    float: right;
+    margin: 10px;
+}
+
+
+#search-field {
+    width: 98%;
+}
+
+#header {
     text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 250px;
+}
+#search-icon {
+    float:left;
+    width: 2%;
+}
+#search-form {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10px;
 }

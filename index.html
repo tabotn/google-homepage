@@ -1,23 +1,31 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <main id="main">
-    <navbar id="top-navbar">
+    <div id="top-navbar">
+        <a href="#sign in">Sign In</a>
+        <a href="#grid">Grid</a>
+        <a href="#apps">Apps</a>
+        <a href="#gmail">Gmail</a>
 
-    </navbar>
-    <header>
+    </div>
+    <div id="header">
         <img id="google-logo" src="images/logo.png" alt="Google logo">
-    </header>
-    <body>
-        <form>
+    </div>
 
+    <body>
+        <form id=search-form>
+            <img id="search-icon" src="images/search.svg" alt="search-icon">
+            <input type="text" id="search-field" name="search-field" placeholder="images/search.svg"><br>
+            <input type="submit" id="search-button" name="search-button" value="Google Search">
+            <input type="submit" id="lucky-button" name="lucky-button" value="Feeling Lucky">
         </form>
     </body>
-    <navbar id="bottom-navbar">
+    <div id="bottom-navbar">
 
-    </navbar>
+    </div>
 </main>
 
 </html>
